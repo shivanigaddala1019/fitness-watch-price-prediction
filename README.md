@@ -50,21 +50,21 @@ Note: Performance is moderate due to real-world scraped data limitations.
 
 ## 📂 Project Structure
 
-fitness-watch-price-prediction/
+fitness-watch-price-prediction
 │
-├── src/
-│   ├── app.py
-│   ├── model.py
-│   ├── preprocess.py
-│   ├── eda.py
+├── src                → All your code files
+│   ├── app.py        → Streamlit app
+│   ├── model.py      → ML training
+│   ├── preprocess.py → Data cleaning
+│   ├── eda.py        → Graphs & analysis
 │
-├── data/
+├── data               → Dataset files
 │   ├── cleaned_data.csv
 │   ├── flipkart_data.csv
 │
-├── model.pkl
-├── requirements.txt
-├── README.md
+├── model.pkl          → Saved trained model
+├── requirements.txt   → Libraries
+├── README.md          → Project description
 ▶️ Run the Project
 pip install -r requirements.txt
 streamlit run src/app.py
