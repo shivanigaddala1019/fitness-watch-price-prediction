@@ -54,14 +54,14 @@ Note: Performance is moderate due to real-world scraped data limitations.
 │   ├── app.py            # Streamlit app
 │   ├── model.py          # ML training
 │   ├── preprocess.py     # Data cleaning
-│   ├── eda.py            # Graphs & analysis
+│   ├── eda.py            # EDA graphs
 │
 ├── data/
 │   ├── cleaned_data.csv
 │   ├── flipkart_data.csv
 │
-├── model.pkl             # Saved model
-├── requirements.txt      # Dependencies
+├── model.pkl             # Trained model
+├── requirements.txt      # Libraries
 ├── README.md             # Project description
 
 
