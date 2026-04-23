@@ -48,7 +48,8 @@ Note: Performance is moderate due to real-world scraped data limitations.
 
 ⸻
 
-📂 Project Structure
+## 📂 Project Structure
+
 fitness-watch-price-prediction/
 │
 ├── src/
@@ -58,6 +59,9 @@ fitness-watch-price-prediction/
 │   ├── eda.py
 │
 ├── data/
+│   ├── cleaned_data.csv
+│   ├── flipkart_data.csv
+│
 ├── model.pkl
 ├── requirements.txt
 ├── README.md
